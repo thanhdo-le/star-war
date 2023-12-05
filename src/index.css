@@ -1,0 +1,42 @@
+body{
+    background-image: url('../public/assets/stars.png');
+}
+.game{
+    /* width:800px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url('../public/assets/stars.png');
+}
+.score{
+    height:60px;
+    color:#fff; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+    margin:24px;
+}
+.player-score{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.computer-score{
+    position: relative;
+    right:50px;
+    top:20px;
+}
+.round{
+    position: relative;
+    top:10px;
+}
+
+.message{
+    color:#fff;
+    font-size: 32px;
+    position: absolute;
+    top:30%;
+    left:45vw;
+    text-align: center;
+}
